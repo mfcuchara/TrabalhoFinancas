@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+body{
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #ffd4a3;
+    font-size: 15px;
+    text-align: center;
+}
+
+h1 {
+    color: #a54404;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 40px;
+}
+
+h2 {
+    color: #a54404;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px;
+}
+
+button {
+    background-color: #f89571;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h3{
+    color: #a54404;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: #ffd4a3 1px 0 10px;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#formdespesas{
+    display: grid; /*alinhar*/
+    align-items: center;
+    justify-content: center;
+    max-width: 520px;
+    margin: 0 auto 20px;
+
+}
+
+.container-financeiro{
+    display: flex; 
+    justify-content: center; /*Centraliza horizontalmente*/
+    align-items: flex-start; /*Alinha ao topo*/
+    gap: 40px; /*Espaçamento entre as caixas*/
+    margin-top: 30px; 
+}
+
+.container-financeiro .box{
+    background: #fff0e0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li{
+    font-size: 13px;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    border: 2px solid #f89571;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #fff7ef;
+    outline: none
+    
+}
+
+    
