@@ -16,7 +16,7 @@ document.getElementById("formdespesas").addEventListener("submit", function(even
 
     var data=document.getElementById("data").value
     var nome=document.getElementById("nome").value
-    var valor=document.getElementById("valor").value
+    var valor= parseFloat(document.getElementById("valor").value).toFixed(2)
 
     var despesas={data:data, nome:nome, valor:valor}
     var lista_despesas=JSON.parse(localStorage.getItem('listagem')) || []
