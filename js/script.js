@@ -10,6 +10,12 @@ function cadastro(){
     resumo_financeiro()
 }
 
+function apagar(){
+    var salario = document.getElementById("salario")
+    salario.value=""
+    resumo_financeiro()
+}
+
 
 document.getElementById("formdespesas").addEventListener("submit", function(event){
     event.preventDefault();
